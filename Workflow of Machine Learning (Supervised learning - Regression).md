@@ -1,5 +1,3 @@
-[TOC]
-
 # Introduction
 
 This article introduces the common procedures of a regression problem with a real dataset. 
@@ -180,7 +178,7 @@ msn.bar(missingvalue_df,
 
 The bar chart:
 
-![barchar](D:/program%20files/typora/imgbed/barchar.png)
+![barchar](https://github.com/RyanQue/imgbed/blob/6f9866c07060731d71bd3de0ffc2b1734657b31a/typora/barchar.png)
 
 - `description`, `host_location`, `bathrooms_text`, `bedrooms`, `beds` are features with a small portion of missing values.
 - `response_time` and `response_rate` are feature with over a half missing values.
@@ -192,7 +190,7 @@ msn.heatmap(missingvalue_df,figsize = (24,20))
 
 The heatmap:
 
-![heatmap](D:/program%20files/typora/imgbed/heatmap.png)
+![heatmap](https://github.com/RyanQue/imgbed/blob/6f9866c07060731d71bd3de0ffc2b1734657b31a/typora/heatmap.png)
 
 **In the heatmap, high correlation means missing values occur in the same observation. **
 
@@ -463,7 +461,7 @@ sns.catplot(x='num_host_verification',
             kind="boxen")
 ```
 
-![verification](D:/program%20files/typora/imgbed/verification.png)
+![verification](https://github.com/RyanQue/imgbed/blob/6f9866c07060731d71bd3de0ffc2b1734657b31a/typora/verification.png)
 
 It is observed that accommodation with identity-verified host will have slightly higher price. With number of verification increasing, there is no obvious increment in price.
 
@@ -493,7 +491,7 @@ a = plt.colorbar()
 a.set_label('log_price')
 ```
 
-![geometric distribution](D:/program%20files/typora/imgbed/geometric%20distribution.png)
+![geometric distribution](https://github.com/RyanQue/imgbed/blob/6f9866c07060731d71bd3de0ffc2b1734657b31a/typora/geometric%20distribution.png)
 
 ***TIP**: This figure can be improved by using more advanced visualization technique. For example, 1) combining with the real map, 2) use some kind of heatmap instead of this scatter graph with alpha adjusted.*
 
@@ -529,7 +527,7 @@ sns.catplot(x = "room_type",
             kind = "violin")
 ```
 
-![room type](D:/program%20files/typora/imgbed/room%20type.png)
+![room type](https://github.com/RyanQue/imgbed/blob/6f9866c07060731d71bd3de0ffc2b1734657b31a/typora/room%20type.png)
 
 The plot shows that private room and shared room are relatively low in price while entire home/apt and hotel room are relatively high in price.
 
@@ -542,7 +540,7 @@ sns.catplot(x="accommodates",
             kind="boxen")
 ```
 
-![accommodates](D:/program%20files/typora/imgbed/accommodates.png)
+![accommodates](https://github.com/RyanQue/imgbed/blob/6f9866c07060731d71bd3de0ffc2b1734657b31a/typora/accommodates.png)
 
 From the boxplot, it is observed that when accommodates are less than 10, the price has approximately positive linear relationship with accommodates. Accommodations with more than 10 accommodates has no obvious relationship with price.
 
@@ -564,7 +562,7 @@ sns.catplot(x="bedrooms", y="log_price",
                data=df, kind="boxen")
 ```
 
-![bedrooms](D:/program%20files/typora/imgbed/bedrooms.png)
+![bedrooms](https://github.com/RyanQue/imgbed/blob/6f9866c07060731d71bd3de0ffc2b1734657b31a/typora/bedrooms.png)
 
 the correlation is obvious positive but not linear.
 
@@ -644,7 +642,7 @@ sns.catplot(x="cate_min_nights", y="log_price",
                data=df, kind="violin")
 ```
 
-![min night](D:/program%20files/typora/imgbed/min%20night.png)
+![min night](https://github.com/RyanQue/imgbed/blob/6f9866c07060731d71bd3de0ffc2b1734657b31a/typora/min%20night.png)
 
 ```python
 df['cate_max_nights'] = df.maximum_nights_avg_ntm.apply(ClassifyNights)
@@ -653,7 +651,7 @@ sns.catplot(x="cate_max_nights", y="log_price",
                data=df, kind="violin"
 ```
 
-![max night](D:/program%20files/typora/imgbed/max%20night.png)
+![max night](https://github.com/RyanQue/imgbed/blob/6f9866c07060731d71bd3de0ffc2b1734657b31a/typora/max%20night.png)
 
 It seems that there is no big difference  in price with different settings of minimum nights and maximum nights.
 
@@ -676,7 +674,7 @@ sns.catplot(x="has_availability", y="log_price",
                data=df, kind="violin")
 ```
 
-![has availability](D:/program%20files/typora/imgbed/has%20availability.png)
+![has availability](https://github.com/RyanQue/imgbed/blob/6f9866c07060731d71bd3de0ffc2b1734657b31a/typora/has%20availability.png)
 
 The same is did to `instant_bookable` and the plot shows no difference.
 
@@ -1120,7 +1118,7 @@ plt.show()
 
 
 
-![random forest plot](D:/program%20files/typora/imgbed/random%20forest%20plot.png)
+![random forest plot](https://github.com/RyanQue/imgbed/blob/6f9866c07060731d71bd3de0ffc2b1734657b31a/typora/random%20forest%20plot.png)
 
 ---
 
