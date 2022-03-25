@@ -1,5 +1,7 @@
 # Typora Markdown Notes Collection
 
+This would be a storage repository for a personal tech blog website.
+
 **Including:**
 - Class Notes in USYD
 - Tech blogs
