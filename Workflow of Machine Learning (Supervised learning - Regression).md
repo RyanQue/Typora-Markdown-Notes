@@ -20,7 +20,7 @@ This ML project is about predicting the rental prices of certain accommodations 
 
 - **Keep iterating the analysis and modelling procedure**
 
-<img src="D:\program files\typora\imgbed\image-20211214230330867.png" style="height:300px" />
+<img src="https://github.com/RyanQue/imgbed/blob/6f9866c07060731d71bd3de0ffc2b1734657b31a/typora/image-20211214230330867.png" style="height:300px" />
 
 ( Image source: Chapman, Pete, et al. "CRISP-DM 1.0 Step-by-step data mining guide." (2000) )
 
