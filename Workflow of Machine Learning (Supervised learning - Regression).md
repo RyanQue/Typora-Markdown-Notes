@@ -365,7 +365,7 @@ sns.catplot(x="host_response_time",
             kind="violin")
 ```
 
-![responsetime](D:/program%20files/typora/imgbed/responsetime.png)
+![responsetime](https://github.com/RyanQue/imgbed/blob/6f9866c07060731d71bd3de0ffc2b1734657b31a/typora/responsetime.png)
 
 From the plot above, the distribution of price are different between different response time. However, such difference are relatively minor.
 
